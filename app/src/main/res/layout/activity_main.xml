@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#3BBA40"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="700dp"
+        android:paddingRight="300dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="50dp"
+     />
+
+
+
+    <TextView
+        android:id="@+id/masuk"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"/>
+
+
+
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_width="405dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:inputType="text"
+      />
+
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_width="405dp"
+        android:layout_height="50dp"
+
+        android:hint="Password"
+       />
+
+    <TextView
+        android:id="@+id/lupapassword"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:gravity="right"
+        android:hint="Lupa Password"
+        android:text="Lupa Password"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/Mlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+
+    <TextView
+        android:id="@+id/et_registrasi"
+        android:layout_marginTop="40dp"
+        android:gravity="left"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="#0F5059"
+        android:layout_width="405dp"
+        android:layout_height="50dp"
+        android:text="belum_punya_akun?"/>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30dp"
+        android:layout_marginLeft="110dp"
+        android:textColor="#EEECF3"
+        android:layout_marginTop="-57dp"
+        android:gravity="center"/>
+</LinearLayout>

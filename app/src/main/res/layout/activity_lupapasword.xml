@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".lupapasword"
+    android:padding="16dp"
+    android:background="#1A9A1F">
+
+    <ImageView
+        android:layout_width="700dp"
+        android:paddingRight="350dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/fuuuu"/>
+
+
+
+    <TextView
+        android:id="@+id/lupasandi"
+        android:layout_marginTop="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LUPA KATA SANDI"
+        android:textStyle="bold"
+        android:textColor="#0C0C0C"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/ubahsandi"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:text="Ubah Kata Sandi"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="#FF8F00"
+        android:textColor="#0C0C0C"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
